@@ -1,4 +1,203 @@
 body {
     margin: 0;
     padding: 0;
+    font-size: 20px;
+    background-color: rgb(185, 213, 255);
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom:50px;
+}
+
+section {
+    margin-bottom: 75px;
+}
+
+header {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    .barrenav {
+        list-style: none;
+
+        li {
+            float: left;
+            width: 10em;
+            list-style: none;
+            margin-left: 50px;
+
+            a:hover {
+                transform: scale(1.15);
+                transition-duration: 300ms;
+            }
+
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 3em;
+                color: rgba(0, 0, 0, 0.685);
+                background: rgb(255, 66, 66);
+                text-decoration: none;
+                border-radius: 13px;
+                box-shadow: 3px 2px 7px 1px rgb(80, 80, 80);
+                p {
+                    font-size: 1.5em;
+                }
+            }
+        }
+    }
+    .presentation {
+        background-image: url(images/background_section1.avif);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width:100%;
+        li {
+            list-style: none;
+        }
+    
+        .Ptxt {
+            display: flex;
+            flex-direction: column;
+            max-width: 50%;
+            margin-top: 100px;
+            align-items: center;
+            margin-left: 30%;
+            margin-bottom:100px;
+            p {
+                margin-left: 110px;
+                text-align: left;
+            }
+        }
+    
+        .Pbutton {
+            min-width: 20%;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            margin-right: 20%;
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 3.4em;
+                width: 11em;
+                color: white;
+                text-decoration: none;
+                margin-top: 10em;
+    
+                div {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 10px;
+                    background: rgba(255, 57, 57, 0.89);
+                    height: 3em;
+                    width: 10em;
+                }
+            }
+    
+            a:hover div {
+                background-color: rgba(0, 0, 0, 0.863);
+                transform: rotate(720deg);
+                color: rgba(134, 216, 236, 0.842);
+                transition-duration: 700ms;
+            }
+        }
+    }
+}
+
+
+.skills {
+    margin:0;
+    padding:0;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    .box2 {
+        display: flex;
+        justify-content: center;
+        list-style:none;
+        background-color: rgba(107, 224, 146, 0.959);
+        border-radius: 20px;
+        width:250px;
+        margin-left:50px;
+        margin-right:50px;
+        box-shadow:0 0 3px 1.5px rgba(0, 0, 0, 0.274);
+        ul {
+            padding:30px;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            li {
+                list-style: none;
+            }
+        }
+    }
+    .box2:hover {
+        box-shadow: 0 0 10px -1px rgb(255, 255, 255);
+        transition-duration: 700ms;
+    }
+}
+
+.xp {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .box3 {
+        color: rgb(32, 0, 0);
+        background-color: rgb(207, 106, 106);
+        border-radius: 30px;
+        width:300px;
+        margin-right:100px;
+        box-shadow:0 0 3px 1.5px rgba(0, 0, 0, 0.274);
+        ul {
+            padding: 35px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            list-style: none;
+            li {
+                img {
+                    max-width:280px;
+                }
+            }
+        }
+    }
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    .box4 {
+        color: rgb(32, 0, 0);
+        background-color: rgb(207, 106, 106);
+        border-radius: 30px;
+        width:300px;
+        margin-right:100px;
+        box-shadow:0 0 3px 1.5px rgba(0, 0, 0, 0.274);
+        ul {
+            padding: 35px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            list-style: none;
+            li {
+                img {
+                    max-width:280px;
+                }
+            }
+        }
+    }
 }
