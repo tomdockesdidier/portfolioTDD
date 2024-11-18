@@ -1,3 +1,5 @@
+/* Base */
+
 body {
     margin: 0;
     padding: 0;
@@ -36,6 +38,8 @@ section {
     margin-bottom: 6.75em;
 }
 
+/* Header */
+
 header {
     padding: 0;
     margin: 0;
@@ -44,6 +48,7 @@ header {
     justify-content: center;
     align-items: center;
     width: 100%;
+    /* Barre de navigation */
     .bandehaut {
         margin:0;
         .barrenav {
@@ -86,6 +91,7 @@ header {
         background-position: center;
     }
 
+    /* 1er section : Présentation */
     .presentation {
         display: flex;
         flex-direction: row;
@@ -148,7 +154,7 @@ header {
                     width: 10em;
                 }
             }
-    
+            /* Bouton qui tourne \(OwO)/ */
             a:hover div {
                 background-color: rgba(0, 0, 0);
                 box-shadow: 0 0 5px 2px #0ff703;
@@ -164,21 +170,21 @@ header {
     }
 }
 
+/* 2e Partie : Compétences */
+
 .skills {
     margin:0;
     padding:0;
     width:100%;
     display:flex;
-    flex-direction:row;
+    list-style:none;
     justify-content: center;
+    gap:3em;
     .box2 {
         display: flex;
         justify-content: center;
-        list-style:none;
         border-radius: 10px;
         width:12.5em;
-        margin-left:1.5em;
-        margin-right:1.5em;
         box-shadow:0 0 3px 1.5px rgba(0, 0, 0, 0.274);
         ul {
             padding:1.5em;
@@ -194,6 +200,8 @@ header {
         }
     }
 }
+
+/* 3e Partie : Expériences */
 
 .xp {
     list-style: none;
@@ -226,6 +234,8 @@ header {
     }
 }
 
+/* 4e Partie : Projets */
+
 .project {
     margin:0;
     padding:0;
@@ -233,6 +243,7 @@ header {
     flex-direction: row;
     justify-content: center;
     list-style: none;
+    gap:4em;
     .box4 {
         display: flex;
         justify-content: center;
@@ -240,8 +251,6 @@ header {
         text-shadow: 2px 2px 8px gray;
         border-radius: 10px;
         width:20em;
-        margin-right:2.5em;
-        margin-left:2.5em;
         ul {
             padding: 1.75em;
             display: flex;
@@ -265,6 +274,8 @@ header {
         }
     }
 }
+
+/* Footer */
 
 footer {
     display: flex;
@@ -313,18 +324,20 @@ footer {
     }
 }
 
+/* :kappa: */
+
 .gif {
     display: flex;
     flex-direction: column;
     img {
         width:20em;
-        margin: 2.5em 2.5em 0 0;
     }
     .keur {
         width:25em;
-        margin-right:-2.5em;
     }
 }
+
+/* Responsive */
 
 @media (max-width:940px) {
     body {
