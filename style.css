@@ -151,8 +151,8 @@ header {
             a:hover div {
                 background-color: rgba(0, 0, 0);
                 box-shadow: 0 0 5px 2px #0ff703;
-                transform: rotate(720deg);
                 color: #39F430;
+                transform: rotate(720deg);
                 transition-duration: 700ms;
                 p {
                     font-family: "Doto", sans-serif;
@@ -317,6 +317,6 @@ footer {
     }
     .keur {
         width:500px;
-        margin-right: -160px;
+        margin-right:-50px;
     }
 }
