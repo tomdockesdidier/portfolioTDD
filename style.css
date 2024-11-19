@@ -85,7 +85,7 @@ header {
         }
     }
     #imgH {
-        background-image: url(images/gif14.gif);
+        background-image: url(images/black.jpg);
         background-repeat: no-repeat;
         background-size: 70%;
         background-position: center;
@@ -311,13 +311,13 @@ footer {
         margin-right:20%;
         margin-left: 20%;
         display: flex;
-        a {
+        i {
             color: #39f430;
             font-size:2em;
             margin-left:0.5em;
             text-shadow:0 0 5px 1px #E9F7EC;
         }
-        a:hover {
+        i:hover {
             transform: scale(1.2);
             transition-duration: 200ms;
         }
