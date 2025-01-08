@@ -325,8 +325,8 @@ footer {
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 4em;
-            width:14em;
+            height: 3.5em;
+            width:12em;
             color: #3af430d7;
             text-decoration: none;
             border-radius: 10px;
@@ -337,7 +337,7 @@ footer {
             }
         }
         a:hover {
-            transform: scale(1.15);
+            transform: scale(1.05);
             transition-duration: 500ms;
             box-shadow: 0 0 10px #13610d;
         }
@@ -346,13 +346,13 @@ footer {
         display: flex;
         i {
             color: #39f430;
-            font-size:2em;
+            font-size:2.5em;
             margin-left:0.5em;
             text-shadow:0 0 5px 1px #ddf8e3;
         }
         i:hover {
-            transform: scale(1.2);
-            transition-duration: 200ms;
+            transform: scale(1.1);
+            transition-duration: 300ms;
         }
     }
 }
@@ -404,6 +404,6 @@ footer {
 
 @media (max-width:500px) {
     footer {
-        gap: 0;
+        gap: 1em;
     }
 }
