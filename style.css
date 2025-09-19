@@ -258,7 +258,7 @@ header {
                 img {
                     max-width:14em;
                 }
-                .astral:hover img {
+                .XPlink:hover img {
                     transform: scale(1.05);
                     transition-duration: 300ms;
                 }
